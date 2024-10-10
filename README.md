@@ -1,2 +1,2 @@
-# MenuForRestaurant
+Restaurant
 Practical assignment for the course "wilson_kevin_the_absolute_beginners_guide_to_html_and_css"
