@@ -20,13 +20,24 @@
         <a href="book.html"> Book a Table </a>
     </div>
 
-    <form action="book.php" id="form" method="post">
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname">
-
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" name="lastname">
-    </form>
+    <div class="formcontainer">
+        <form action="book.php" id="form" method="post">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname">
+        
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname">
+        
+            <label for="emailaddr">Email Address</label>
+            <input type="email" id="emailaddr" name="emailaddr">
+        
+            <label for="msg">Your Massage</label>
+            <textarea id="msg" name="msg" style="height: 200px;"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
     <div class="footer">
         <p>Copyright &copy; 2021 Anna`s Kitchen. All rights reserved</p>
     </div>
